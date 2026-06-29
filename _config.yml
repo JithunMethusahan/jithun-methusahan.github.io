@@ -10,3 +10,24 @@ author:
 github: "your-github-username"
 twitter: "your-twitter-username"
 email: "your-email@gmail.com"
+# Defaults Configuration Setup
+defaults:
+  # Home / About Page Default Layout Settings
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+  # Blog Posts Configuration Settings
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
