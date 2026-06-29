@@ -1,15 +1,16 @@
 # Author Profile Info
 author:
-  name: "H.N.Jithun Methusahan"
+  name: "Jithun Methusahan"
   avatar: "bio-photo.jpg" # Upload your photo as bio-photo.jpg to /images/ folder
-  bio: "National Olympiad in Informatics 2026 Finalist. Researching low-cost computer vision architectures."
-  location: "Sri Lanka"
-  uri: "https://vercel.app" # Or your new URL
+  bio: "National Olympiad in Informatics 2026 Finalist. Researching low-cost computer vision architectures. Represnt sri lanka at IOAI"
+  
+   # Or your new URL
 
 # Social Links (Set true/false or add username)
-github: "your-github-username"
-twitter: "your-twitter-username"
-email: "your-email@gmail.com"
+github: "https://github.com/JithunMethusahan"
+linkedIn: "https://www.linkedin.com/in/jithunmethusahan/"
+
+email: "work.jithun@gmail.com"
 # Defaults Configuration Setup
 defaults:
   # Home / About Page Default Layout Settings
