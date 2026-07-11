@@ -768,11 +768,6 @@ zxcvbnm,ghjdfghghbvghbvnhgnm,jk`
                         }
                     });
                 });
-
-                const firstButton = buttons[0];
-                if (firstButton) {
-                    firstButton.click();
-                }
             } catch (error) {
                 console.error('Blog load failed:', error);
                 listEl.innerHTML = `<div class="blog-loading">Unable to load blog posts. ${escapeHtml(error.message)}</div>`;
