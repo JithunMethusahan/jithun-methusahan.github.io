@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -411,28 +411,19 @@
         <main>
             <section id="home" class="content-section active">
                 <p>
-                    I am a <strong>Student</strong> at <strong>Prince of Wales College</strong> working on building systems that make lives easier. My research focuses on making large generative models run efficiently on resource-constrained devices, spanning on-device machine learning, system-algorithm co-design, and performance optimization.
+                    I am a <strong>Student</strong> at <strong>Prince of Wales College</strong> currently pursuing academic tracks with a strong interest in technology and computational science  My research focuses on making large generative models run efficiently on resource-constrained devices and performance optimization.
                 </p>
 
                 <p>
-                    I have delivered three consecutive <span class="orange-text">Open-Source Contributions</span> to global ecosystems including work on <strong>AppleCoreNet</strong>, <strong>ClickHouse</strong>, and <strong>freeCodeCamp</strong>. My focus ensures that automated systems drive smarter, data-centric results through robust engineering.
+                    I have delivered three consecutive <span class="orange-text">Open-Source Contributions</span> to global ecosystems including work on <strong>AppleCoreNet</strong>, <strong>ClickHouse</strong>, <strong>freeCodeCamp</strong> and etc.. My focus ensures that automated systems drive smarter, data-centric results through robust engineering. and have published multiple guides on efficient <strong>Python/C++</strong> development.
                 </p>
 
-                <p>
-                    Recently recognised as a <span class="orange-text">Rising Developer</span> in the open-source community, I have maintained a portfolio of <strong>10+ active projects</strong>. I have mentored peers in system design and have published multiple guides on <strong>efficient Python/C++ development</strong>.
-                </p>
-
-                <h3 class="section-title">Research Focus:</h3>
-                <ul class="research-list">
-                    <li><strong>Efficient Generative AI Systems:</strong> Reimagining resource-intensive generative models for mobile and edge devices.</li>
-                    <li><strong>On-Device Training & Continual Adaptation:</strong> Enabling devices to learn locally with minimal data, preserving privacy and improving personalisation.</li>
-                    <li><strong>System-Algorithm Co-Design:</strong> Creating optimised solutions that synergise hardware capabilities and algorithmic innovations.</li>
-                </ul>
-
+                
+               
                 <h3 class="section-title">Want to Collaborate?</h3>
                 <p>
                     If you're interested in working with me, please contact me so we can have a chat.
-                    I always love to interact and collaborate with brilliant minds.
+                    I always love to interact and collaborate with brilliant minds. 
                 </p>
 
                 <div class="contact-header">Contact Info</div>
@@ -450,10 +441,10 @@
                         <strong style="font-size: 15px; color: #000; display: block; margin-bottom: 2px;">
                             Shadow-Robust Interactive Whiteboard via YUV Preprocessing and MediaPipe Hand Tracking
                         </strong>
-                        <div style="color: #444; margin-bottom: 3px;">
-                            <u>H.N.Jithun Methusahan</u>, H.K.G.V.L. Wickramarathna
+                        <div style="color: #383838; margin-bottom: 3px;">
+                            <u><strong>H.N.Jithun Methusahan</strong></u>, H.K.G.V.L. Wickramarathna
                         </div>
-                        <div style="font-size: 13.5px; margin-bottom: 3px;">
+                        <div clastyle="font-size: 13.5px; margin-bottom: 3px;">
                             <a href="https://icml.cc/virtual/2026/78354" target="_blank">Link</a>
                         </div>
                         <div class="red-text" style="font-size: 13px; margin-top: 2px;">
@@ -782,7 +773,9 @@ zxcvbnm,ghjdfghghbvghbvnhgnm,jk`
                     firstButton.click();
                 }
             } catch (error) {
-                renderLocalPosts(listEl, articleEl);
+                console.error('Blog load failed:', error);
+                listEl.innerHTML = `<div class="blog-loading">Unable to load blog posts. ${escapeHtml(error.message)}</div>`;
+                articleEl.innerHTML = '<div class="blog-loading">Please refresh the page or verify your GitHub repository settings.</div>';
             }
         }
 
