@@ -5,11 +5,6 @@ estimated read time: 3 minutes
 category: Thoughts 
 ---
 
-# Critical thinking 
-
-Published: 2026-08-20 | Estimated read time: 3 minutes
-
-
 Yesterday night when I went to sleep, I thought about my thinking when I was 10. I designed a space shuttle using building blocks and explained the arts of that to my parents. Yeah, it was not right, I don't know, but most of the things are actually inside a shuttle. But I didn't study anytime about those, but my thinking has been made of parts like the control panel, boosters, etc. And I got up and tried to recreate the thing, but unfortunately, I cannot. But since I am older and I have better general knowledge now, why can't I? So I searched about this. The thing is your creativity and critical thinking.
 
 Actually, we don't know the exact code when we are coding. Before AI, most of the coders used platforms like Stack Overflow and they sometimes copy-pasted the solution. We are doing the same thing with AI. But the powerful thing is thinking, and in the AI era, this is a powerful weapon, and AI is secretly shrinking this. I think when we get an error, we copy-paste it or use an AI agent or Copilot. But in the past, I was practicing for IOI (competitive programming) and there we can't do that, no AI. So I tried and tried along with errors. When we push our limit, our brain is breaking and rebuilding just like when you go to the gym and train with weights. So then your tissue will break and recover and get strong and big, so like this, our brain's neurons are rewiring and creating new connections between those, so we get a powerful brain.
