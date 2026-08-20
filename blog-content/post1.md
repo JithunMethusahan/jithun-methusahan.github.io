@@ -1,3 +1,10 @@
+---
+title:  Critical Thinking  
+published: 2026-08-20
+estimated read time: 3 minutes
+category: Thoughts 
+---
+
 # Critical thinking 
 
 Published: 2026-08-20 | Estimated read time: 3 minutes
