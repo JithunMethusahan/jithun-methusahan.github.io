@@ -1,6 +1,6 @@
 ---
 title:  Critical Thinking  
-published: 2026-08-20
+published: Recently 
 estimated read time: 3 minutes
 category: Thoughts 
 ---
